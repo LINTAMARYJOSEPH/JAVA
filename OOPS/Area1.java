@@ -8,7 +8,7 @@ class Area1
 	       length=l;
 	       breadth=b;
 	   }
-	  public int getArea()
+	  public int returnArea()
 	  {
 	        return length*breadth;
 	  }
@@ -22,7 +22,7 @@ class Area1
 	     System.out.println("Enter breadth");
 	     b=s.nextInt();
 	     Area1 a=new Area1(l,b);
-	    System.out.println("Area is :"+a.getArea());
+	    System.out.println("Area is :"+a.returnArea());
 	  }
 	 
 
